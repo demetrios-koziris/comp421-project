@@ -8,3 +8,4 @@ echo *:*:database:username:password > ~/.pgpass
 
 Change permissions on password file to be usable 
 chmod 0600 ~/.pgpass
+
