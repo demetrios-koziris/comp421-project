@@ -7,13 +7,11 @@ then
 	LOG=$1"/"$LOG
 fi
 
-echo "COMP421 Project Assignment 2 Part 3"
-echo "COMP421 Project Assignment 2 Part 3" > $LOG
+printf "COMP421 Project Deliverable #2 Part 3\n" | tee $LOG
 
 #Run part3_insert.sql and log output
-INSERT="part3_insert.sql"
-echo "Running $INSERT"
-echo >> $LOG
-echo "psql cs421 < $INSERT" >> $LOG
-echo >> $LOG
-psql cs421 --echo-all < $INSERT >> $LOG 2>&1
+# INSERT="sql/part3_insert.sql"
+# printf " executing $INSERT\n"
+# printf "\npsql cs421 < $INSERT\n\n" >> $LOG
+# psql cs421 --echo-all < $INSERT >> $LOG 2>&1
+/bin/bash execute_sql.sh "sql/part3_insert.sql" $LOG "--echo-all"
