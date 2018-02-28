@@ -1,4 +1,6 @@
-COMP421 Project Deliverable 2
+# COMP421 Project Deliverable 2
+
+## How to Run
 
 Create .pgpass file to store password so that it does not have to be entered manually:
 ```
