@@ -37,7 +37,6 @@ INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('hmckeighan2', 'k
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('hsibthorpea', 'kdumphries14');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('irookes1v', 'kbrumfield1x');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('jdarville1t', 'kambrogelli1a');
-INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('jduff23', 'jduff23');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kambrogelli1a', 'jdarville1t');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kbrumfield1x', 'irookes1v');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kdumphries14', 'hsibthorpea');
@@ -137,7 +136,6 @@ INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kabson4p', 'lcop
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kgehricke3h', 'lcaillou4f');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kgemmill2s', 'lbuckleigh3q');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kgreenin3e', 'klabrom5j');
-INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('kkimblen39', 'kkimblen39');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('klabrom5j', 'kgreenin3e');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('lbuckleigh3q', 'kgemmill2s');
 INSERT INTO usert_friend (usert_handle, friend_handle) VALUES ('lcaillou4f', 'kgehricke3h');

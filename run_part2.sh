@@ -16,4 +16,4 @@ printf "COMP421 Project Deliverable #2 Part 2\n" | tee $LOG
 /bin/bash execute_sql.sh "sql/tables_create.sql" $LOG "--echo-all"
 
 #Run tables_print.sql and log output
-/bin/bash execute_sql.sh "sql/tables_print.sql" $LOG "--echo-all"
+/bin/bash execute_sql.sh "sql/tables_print_desc.sql" $LOG "--echo-all"

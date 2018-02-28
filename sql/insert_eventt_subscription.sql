@@ -57,7 +57,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('clegood5e', 57, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('clegood5e', 58, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('cmccard3t', 59, 'maybe');
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('cmccard3t', 60, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('cmctrustam24', 1, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('cmctrustam24', 2, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('cmoody4g', 3, 'maybe');
@@ -117,7 +116,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('gcrosskell3p', 57, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('gcrosskell3p', 58, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('gde40', 59, 'going');
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('gde40', 60, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('ghollingsbyi', 1, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('ghollingsbyi', 2, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('gkyneton4z', 3, null);
@@ -177,7 +175,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jlethbrig4q', 57, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jlethbrig4q', 58, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jmacvaugh4k', 59, 'maybe');
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jmacvaugh4k', 60, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jmeneer3m', 1, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jmeneer3m', 2, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('jprydie3n', 3, null);
@@ -237,7 +234,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('lspatoni1l', 57, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('lspatoni1l', 58, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('lwyld2h', 59, null);
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('lwyld2h', 60, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('mattew19', 1, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('mattew19', 2, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('mdovydenas59', 3, null);
@@ -297,7 +293,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('rblown2u', 57, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('rblown2u', 58, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('rcanto27', 59, 'not going');
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('rcanto27', 60, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('reverleigh2n', 1, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('reverleigh2n', 2, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('rgosz25', 3, 'going');
@@ -357,7 +352,6 @@ INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tkerman1n', 57, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tkerman1n', 58, null);
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tknowlman2m', 59, 'maybe');
-INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tknowlman2m', 60, 'going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tkopecka3y', 1, 'maybe');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tkopecka3y', 2, 'not going');
 INSERT INTO eventt_subscription (usert_handle, eventt_id, rsvp_status) VALUES ('tloughrey3i', 3, null);

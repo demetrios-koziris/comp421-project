@@ -1,24 +1,29 @@
 #! /bin/bash
 
-LOG="part4.log"
+LOG_INSERT="part4_insert.log"
+LOG_PRINT="part4_print.log"
 
 if [ "$1" != "" ] 
 then
-	LOG=$1"/"$LOG
+	LOG_INSERT=$1"/"$LOG_INSERT
+	LOG_PRINT=$1"/"$LOG_PRINT
 fi
 
-printf "COMP421 Project Deliverable #2 Part 4\n" | tee $LOG
+printf "COMP421 Project Deliverable #2 Part 4\n" | tee $LOG_INSERT $LOG_PRINT
 
 #Run tables_dropall.sql 
-/bin/bash execute_sql.sh "sql/tables_dropall.sql" $LOG
+/bin/bash execute_sql.sh "sql/tables_dropall.sql" $LOG_INSERT
 
 #Run tables_create.sql 
-/bin/bash execute_sql.sh "sql/tables_create.sql" $LOG
+/bin/bash execute_sql.sh "sql/tables_create.sql" $LOG_INSERT
 
 #Run insert sql files
-printf "\nInserting data:\n" >> $LOG
+printf "\nInserting data:\n" >> $LOG_INSERT
 INSERT_ORDER=( wall creator usert page submission post commentt eventt notification page_follower eventt_subscription submission_like feed_view usert_friend )
 for i in "${INSERT_ORDER[@]}"
 do
-	/bin/bash execute_sql.sh "sql/insert_"$i".sql" $LOG
+	/bin/bash execute_sql.sh "sql/insert_"$i".sql" $LOG_INSERT
 done
+
+#Run tables_print_data sql file
+/bin/bash execute_sql.sh "sql/tables_print_data.sql" $LOG_PRINT "--echo-all"
