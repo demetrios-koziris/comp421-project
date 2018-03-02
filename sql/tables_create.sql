@@ -31,7 +31,6 @@ CREATE TABLE page(
 	follower_count INTEGER NOT NULL DEFAULT 0,
 	usert_handle VARCHAR(255) NOT NULL,
 	PRIMARY KEY (page_handle),
-	
 	FOREIGN KEY (page_handle) REFERENCES creator(handle),
 	FOREIGN KEY (usert_handle) REFERENCES usert
 );

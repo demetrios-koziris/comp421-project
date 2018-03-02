@@ -398,3 +398,4 @@ INSERT INTO notification (read_status, notif_link, notif_text, notif_time, usert
 INSERT INTO notification (read_status, notif_link, notif_text, notif_time, usert_handle) VALUES (FALSE, '97e03a06baa2b0ddec38a3dafbbf0386', 'dmooneyb1@auda.org.au', '2018-01-11 16:01:05', 'learles5h');
 INSERT INTO notification (read_status, notif_link, notif_text, notif_time, usert_handle) VALUES (FALSE, '8e8f950da205fe39bbce51e3fc6f8263', 'wpeaddieb2@ezinearticles.com', '2018-02-08 14:30:46', 'sstebbins5i');
 INSERT INTO notification (read_status, notif_link, notif_text, notif_time, usert_handle) VALUES (TRUE, 'f5f3c68e0c9b8729522b2e689777100a', 'dalcaldeb3@dailymail.co.uk', '2017-06-17 2:45:18', 'klabrom5j');
+INSERT INTO notification (read_status, notif_link, notif_text, notif_time, usert_handle) VALUES (FALSE, 'c91feeb261545b0039980572e61d4', 'asherry0oi124ygrfhk', '2017-07-16 16:30:40', 'tbettenay33');

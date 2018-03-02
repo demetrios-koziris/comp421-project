@@ -25,5 +25,8 @@ do
 	/bin/bash execute_sql.sh "sql/insert_"$i".sql" $LOG_INSERT
 done
 
+#Run enforce_covering_constraints.sql 
+/bin/bash execute_sql.sh "sql/enforce_covering_constraints.sql" $LOG_INSERT "--echo-all"
+
 #Run tables_print_data sql file
 /bin/bash execute_sql.sh "sql/tables_print_data.sql" $LOG_PRINT "--echo-all"
