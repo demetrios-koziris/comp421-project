@@ -2,10 +2,11 @@
 
 Submitted as Deliverable 2 for COMP421 group 16 
 
+Note: This repo was made public on 2018-03-02 01:00AM
 
 ## How to Run
 
-Create .pgpass file to store password so that it does not have to be entered manually:
+Create .pgpass file ([see documentation](https://www.postgresql.org/docs/current/static/libpq-pgpass.html)) to store password so that it does not have to be entered manually:
 ```
 echo *:*:database:username:password > ~/.pgpass
 ```
